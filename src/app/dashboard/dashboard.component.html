@@ -1,0 +1,10 @@
+<div class="container">
+    
+    <div *ngFor="let product of products">
+        <div>
+            <div> {{product.name}}</div>dfdf
+            <button class="btn btn-success" (click)="viewProduct(product.id)">View</button>
+        </div>
+        
+    </div>
+</div>

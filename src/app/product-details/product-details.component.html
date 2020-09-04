@@ -1,0 +1,28 @@
+<div class="container">
+    <div>
+        Name : {{product.name}}
+
+    </div>
+    <div>
+    Description : {{product.desc}}
+        
+    </div>
+    <div>
+    price : {{product.price}}
+        
+    </div>
+    <div>
+    Quanity : {{product.quan}}
+        
+    </div>
+    <div>
+    Tags : {{product.tags}}
+        
+    </div>
+    <div>
+    Returnable : {{product.returnable}}
+        
+    </div>
+
+    <button class="btn btn-success" (click)="addToCart(product.id)">Add to cart</button>
+</div>

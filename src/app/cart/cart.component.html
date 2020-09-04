@@ -1,0 +1,25 @@
+
+<table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Price</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr  *ngFor="let c of cart;let i = index" >
+        <td scope="row">{{i+1}}</td>
+        <td>{{c.prodname}}</td>
+        <td>
+            <button (click)="minus(c.id)">-</button>
+            {{c.quan}}
+            <button (click)="plus(c.id)">+</button>
+        </td>
+        <td>{{c.price}}</td>
+        <td> <button (click)="remove(c.id)">remove</button></td>
+      </tr>
+    </tbody>
+  </table>

@@ -1,0 +1,42 @@
+{
+  "cart": [],
+  "products": [
+    {
+      "id": 1,
+      "name": "",
+      "price": "",
+      "desc": "",
+      "tags": "",
+      "category": "",
+      "quan": "",
+      "returnable": ""
+    },
+    {
+      "id": 2,
+      "name": "asd",
+      "price": 12,
+      "desc": "",
+      "tags": "",
+      "category": "",
+      "quan": 1,
+      "returnable": true
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
